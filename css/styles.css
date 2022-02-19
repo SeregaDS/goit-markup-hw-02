@@ -1,11 +1,117 @@
+/* main text color #212121 */
+
+/* secondary test color #757575 */
+
+/* text white color #FFFFFF */
+
+/* action color #2196F3 */
+
+/* footer adress color rgba(255, 255, 255, 0.6); */
+
+/* bg main color #FFFFFF */
+
+/* bg secondary color #F5F4FA */
+
+/* team list bg #FFFFFF */
+
+/* footer bg color #2F303A  */
+
+/* Hero bg color #2F303A */
+
 body {
   font-family: roboto;
+  background-color: #ffffff;
+  color: #212121;
 }
-button:hover,
-button:focus {
+
+.buttons-filter {
+  font-size: 16px;
+}
+
+.cases h2 {
+  font-size: 18px;
+  color: #212121;
+}
+
+.cases p {
+  font-size: 16px;
+  color: #757575;
+}
+
+.nav .link {
+  font-size: 14px;
+  line-height: 114%;
+}
+
+.contact .link {
+  font-size: 14px;
+  line-height: 114%;
+}
+
+.team {
+  font-size: 16px;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-size: 44px;
+  color: #ffffff;
+  line-height: 136%;
+}
+
+.hero-button {
+  font-size: 16px;
+  line-height: 187%;
+}
+
+.footer-adress {
+  font-size: 14px;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 117%;
+}
+
+.team-list-item h3 {
+  line-height: 119%;
+  font-size: 16px;
+}
+
+.team-list-item p {
+  line-height: 119%;
+  font-size: 16px;
+}
+
+.privelege-list p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 171%;
+}
+
+.privelege-list-item {
+  font-size: 14px;
+  line-height: 114%;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: #2196f3;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: #2196f3;
+}
+
+.buttons-filter:focus,
+.buttons-filter:hover {
   background-color: #2196f3;
 }
-a[href]:hover,
-a[href]:focus {
+
+.footer-adress-list-item a:focus,
+.footer-adress-list-item a:hover {
   color: #2196f3;
 }
