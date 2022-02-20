@@ -19,13 +19,15 @@
 /* Hero bg color #2F303A */
 
 body {
-  font-family: roboto;
+  font-family: roboto, raleway, sans-serif;
   background-color: #ffffff;
   color: #212121;
 }
 
 .buttons-filter {
   font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .cases h2 {
@@ -41,11 +43,13 @@ body {
 .nav .link {
   font-size: 14px;
   line-height: 114%;
+  font-weight: 500;
 }
 
 .contact .link {
   font-size: 14px;
   line-height: 114%;
+  font-weight: 500;
 }
 
 .team {
@@ -60,16 +64,28 @@ body {
   font-size: 44px;
   color: #ffffff;
   line-height: 136%;
+  font-weight: 900;
 }
 
 .hero-button {
   font-size: 16px;
   line-height: 187%;
+  cursor: pointer;
+  background-color: #2196f3;
 }
 
 .footer-adress {
   font-size: 14px;
 }
+
+.footer-adress-list-item-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress-list-item-adress {
+  color: #ffffff;
+}
+
 .section-title {
   font-size: 36px;
   line-height: 117%;
@@ -78,11 +94,13 @@ body {
 .team-list-item h3 {
   line-height: 119%;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .team-list-item p {
   line-height: 119%;
   font-size: 16px;
+  color: #757575;
 }
 
 .privelege-list p {
@@ -111,7 +129,7 @@ body {
   background-color: #2196f3;
 }
 
-.footer-adress-list-item a:focus,
-.footer-adress-list-item a:hover {
+.footer-adress a:focus,
+.footer-adress a:hover {
   color: #2196f3;
 }
