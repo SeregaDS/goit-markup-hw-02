@@ -30,6 +30,7 @@ body {
   font-family: roboto, raleway, sans-serif;
   background-color: #ffffff;
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
 
 .buttons-filter {
@@ -51,6 +52,7 @@ body {
   font-size: 14px;
   line-height: 114%;
   font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
@@ -58,7 +60,7 @@ body {
   font-size: 14px;
   line-height: 114%;
   font-weight: 500;
-  color: var(--main-text-color);
+  color: var(--secondary-text-color);
 }
 
 .team {
@@ -74,6 +76,7 @@ body {
   color: 
   line-height: 136%;
   font-weight: 900;
+  letter-spacing: 0.06em;
 }
 
 .hero-button {
@@ -81,6 +84,7 @@ body {
   line-height: 187%;
   cursor: pointer;
   background-color: var(--action-color);
+  letter-spacing: 0.06em;
 }
 
 .footer {
