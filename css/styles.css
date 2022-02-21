@@ -68,6 +68,7 @@ body {
 /* footer */
 
 .footer {
+  /* добавлено для корректного отображения цвета шрифта телефона и мейла в футере */
   background-color: #2f303a;
 }
 .footer-adress {
@@ -128,6 +129,7 @@ body {
 }
 
 .hero {
+  /* добавлено, поскольку белый шрифт заголовка героя */
   background-color: #2f303a;
 }
 
@@ -150,6 +152,9 @@ body {
   font-family: inherit;
   font-weight: 700;
   color: var(--text-white-color);
+  /* ради интереса вровнял кнопку */
+  margin: 0 auto;
+  display: block;
 }
 
 .section-title {
