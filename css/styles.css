@@ -18,15 +18,17 @@
 
 /* Hero bg color #2F303A */
 
+/* Global */
+
 :root {
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --text-white-color: #ffffff;
   --action-color: #2196f3;
   --footer-adress-color: rgba(255, 255, 255, 0.6);
+  --bgc-main: #ffffff;
+  --bgc-secondary: #f5f4fa;
 }
-
-/* Global */
 
 body {
   font-family: roboto, raleway, sans-serif;
@@ -34,10 +36,6 @@ body {
   color: var(--main-text-color);
   letter-spacing: 0.03em;
   font-style: normal;
-}
-
-button {
-  font-family: inherit;
 }
 
 /* header */
@@ -93,6 +91,7 @@ button {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .cases h2 {
@@ -125,6 +124,7 @@ button {
   cursor: pointer;
   background-color: var(--action-color);
   letter-spacing: 0.06em;
+  font-family: inherit;
 }
 
 .section-title {
