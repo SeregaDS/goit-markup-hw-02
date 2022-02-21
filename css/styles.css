@@ -51,10 +51,10 @@ body {
   font-size: 14px;
   line-height: 114%;
   font-weight: 500;
+  color: var(--main-text-color);
 }
 
-.contact .link,
-.nav .link {
+.contact .link {
   font-size: 14px;
   line-height: 114%;
   font-weight: 500;
@@ -71,7 +71,7 @@ body {
 
 .hero-title {
   font-size: 44px;
-  color: var(--text-white-color);
+  color: 
   line-height: 136%;
   font-weight: 900;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 .footer-adress-list-item-adress {
-  color: #ffffff;
+  color: var(--text-white-color);
 }
 
 .section-title {
