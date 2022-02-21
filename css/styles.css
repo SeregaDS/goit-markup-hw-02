@@ -137,6 +137,8 @@ body {
   line-height: 1.36;
   font-weight: 900;
   letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -146,6 +148,8 @@ body {
   background-color: var(--action-color);
   letter-spacing: 0.06em;
   font-family: inherit;
+  font-weight: 700;
+  color: var(--text-white-color);
 }
 
 .section-title {
@@ -179,4 +183,17 @@ body {
 .buttons-filter:focus,
 .buttons-filter:hover {
   background-color: var(--action-color);
+}
+
+/* !убрать все точки со списков */
+
+.nav,
+.contact,
+.privelege-list,
+.promo-list,
+.team-list,
+.buttons,
+.cases-list,
+.footer-adress-list {
+  list-style: none;
 }
