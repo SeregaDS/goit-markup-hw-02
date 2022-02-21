@@ -46,6 +46,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  text-decoration: none;
 }
 
 .contact .link {
@@ -54,6 +55,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 .nav .link:hover,
@@ -74,10 +76,12 @@ body {
 
 .footer-adress-list-item-contact {
   color: var(--footer-adress-color);
+  text-decoration: none;
 }
 
 .footer-adress-list-item-adress {
   color: var(--text-white-color);
+  text-decoration: none;
 }
 
 .footer-adress a:focus,
@@ -86,6 +90,23 @@ body {
 }
 
 /* main */
+
+.logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--action-color);
+}
+
+.logo .header-logo {
+  color: #000000;
+}
+
+.logo .footer-logo {
+  color: var(--text-white-color);
+}
 
 .buttons-filter {
   font-size: 16px;
